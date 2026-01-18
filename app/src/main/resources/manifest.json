@@ -1,0 +1,15 @@
+{
+  "Group": "net.momo",
+  "Name": "voidstorage",
+  "Version": "0.0.1",
+  "Description": "Void storage mod for Hytale",
+  "Main": "net.momo.voidstorage.VoidStoragePlugin",
+  "Authors": [],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": []
+}

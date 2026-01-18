@@ -1,0 +1,32 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Anomaly_Core.name",
+    "Description": "server.items.Anomaly_Core.description"
+  },
+  "Parent": "Rock_Gem_Voidstone",
+  "Categories": [
+    "Items.Tools"
+  ],
+  "Quality": "Epic",
+  "BlockType": {
+    "Light": {
+      "Color": "#a0f",
+      "Radius": 3
+    },
+    "Particles": [
+      {
+        "Color": "#c9b1ff",
+        "SystemId": "Block_Gem_Sparks"
+      }
+    ],
+    "ParticleColor": "#8020c0"
+  },
+  "Tags": {
+    "Type": [
+      "Block"
+    ]
+  },
+  "Interactions": {
+    "Secondary": "Anomaly_Core_Place"
+  }
+}

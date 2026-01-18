@@ -1,0 +1,21 @@
+$C = "../Common.ui";
+
+Group {
+  Anchor: (Width: 48, Height: 48, Right: 4, Bottom: 4);
+  Background: #1a2633(0.9);
+  Padding: 2;
+  LayoutMode: Top;
+
+  Group {
+
+    $C.@SecondaryButton #IconButton {
+      Anchor: (Width: 44, Height: 44);
+    }
+
+    ItemIcon #ItemIcon {
+      Anchor: (Width: 44, Height: 44);
+      Visible: true;
+    }
+
+  }
+}

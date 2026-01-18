@@ -1,0 +1,26 @@
+{
+  "Settings": {
+    "Adventure": {
+      "Cooldown": {
+        "Id": "VoidStorage",
+        "Cooldown": 0.2
+      }
+    },
+    "Creative": {
+      "Cooldown": {
+        "Id": "VoidStorage_Creative",
+        "Cooldown": 0.2,
+        "ClickBypass": true
+      }
+    }
+  },
+  "Interactions": [
+    {
+      "Type": "voidstorage:sigil_absorption",
+      "RunTime": 0.1,
+      "Effects": {
+        "ItemAnimationId": "Interact"
+      }
+    }
+  ]
+}

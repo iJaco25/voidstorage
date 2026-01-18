@@ -1,0 +1,36 @@
+$C = "../Common.ui";
+
+Group {
+  Anchor: (Width: 120, Bottom: 6, Right: 6);
+  Padding: 2;
+  Background: (Color: #1a1a1a(0.6));
+  LayoutMode: Top;
+
+  Group {
+    ItemIcon #ItemIcon {
+      Anchor: (Width: 72, Height: 72, Bottom: 5);
+      Visible: true;
+    }
+    Label #ItemAmount {
+      Anchor: (Left: 74, Top: 54);
+      Background: (Color: #1a1a1a(0.6));
+      Padding: 2;
+      Style: (
+        FontSize: 12,
+        RenderBold: true,
+        TextColor: #ffffff
+      );
+    }
+  }
+
+  Group #ButtonGroup {
+    LayoutMode: Left;
+    Padding: (Top: 5, Bottom: 5, Left: 5, Right: 5);
+
+    $C.@SecondaryTextButton #GetButton {
+      Text: "Get";
+      Anchor: (Width: 100, Height: 30);
+      TooltipText: "Retrieve this item";
+    }
+  }
+}

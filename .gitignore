@@ -1,0 +1,50 @@
+# Ignore everything
+*
+
+# Unignore directories
+!*/
+
+# Re-ignore specific directories
+.gradle/
+build/
+**/build/
+run/
+.idea/
+.vscode/
+
+# Re-ignore System Files
+.DS_Store
+Thumbs.db
+*.log
+
+# Re-ignore Hytale Binaries
+HytaleServer.jar
+Assets.zip
+libs/*.jar
+libs/*.zip
+
+AdminUI/
+HyUI/
+
+# Unignore Specific Root Files
+!.gitignore
+!.justfile
+!README.md
+!gradle.properties
+!settings.gradle.kts
+!gradlew
+!gradlew.bat
+
+!.gitkeep
+
+!docs/
+!docs/*.md
+
+# Unignore App Contents
+!app/build.gradle.kts
+!app/src/main/**
+
+# Unignore Gradle Wrapper
+!gradle/wrapper/**
+
+app/src/main/resources/manifest.json

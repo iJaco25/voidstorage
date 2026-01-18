@@ -1,0 +1,20 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Void_Bell.name",
+    "Description": "server.items.Void_Bell.description"
+  },
+  "Parent": "Deco_Scroll",
+  "Categories": [
+    "Items.Tools"
+  ],
+  "Quality": "Rare",
+  "MaxStack": 1,
+  "Tags": {
+    "Type": [
+      "Tool"
+    ]
+  },
+  "Interactions": {
+    "Secondary": "Void_Bell_Use"
+  }
+}

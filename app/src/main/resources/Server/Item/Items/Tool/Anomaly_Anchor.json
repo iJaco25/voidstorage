@@ -1,0 +1,25 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Anomaly_Anchor.name",
+    "Description": "server.items.Anomaly_Anchor.description"
+  },
+  "Parent": "Rock_Runic_Blue_Brick",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "Quality": "Epic",
+  "BlockType": {
+    "Textures": [
+      {
+        "Weight": 1,
+        "All": "BlockTextures/Rock_Runic_Blue_Brick.png"
+      }
+    ],
+    "ParticleColor": "#5e2bb4"
+  },
+  "Tags": {
+    "Type": [
+      "Block"
+    ]
+  }
+}

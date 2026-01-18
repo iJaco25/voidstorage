@@ -1,0 +1,15 @@
+{
+  "Group": "$pluginGroup",
+  "Name": "$pluginName",
+  "Version": "$pluginVersion",
+  "Description": "$pluginDescription",
+  "Main": "$pluginMain",
+  "Authors": [],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": []
+}

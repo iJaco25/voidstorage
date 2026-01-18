@@ -1,0 +1,35 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Sigil_Absorption.name",
+    "Description": "server.items.Sigil_Absorption.description"
+  },
+  "Parent": "Rock_Gem_Sapphire",
+  "Categories": [
+    "Items.Tools"
+  ],
+  "Quality": "Rare",
+  "BlockType": {
+    "Light": {
+      "Color": "#0af",
+      "Radius": 2
+    },
+    "Particles": [
+      {
+        "Color": "#0af",
+        "SystemId": "Block_Gem_Sparks"
+      }
+    ],
+    "ParticleColor": "#0080ff",
+    "Interactions": {
+      "Use": "Sigil_Config"
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Block"
+    ]
+  },
+  "Interactions": {
+    "Secondary": "Sigil_Absorption_Place"
+  }
+}

@@ -1,0 +1,14 @@
+items.Void_Bell.name = Void Bell
+items.Void_Bell.description = A mystical bell that opens a window to manage your void storage covenant.
+
+items.Sigil_Absorption.name = Sigil of Absorption
+items.Sigil_Absorption.description = A mystical sigil that absorbs items from nearby containers into the void.
+
+items.Sigil_Manifestation.name = Sigil of Manifestation
+items.Sigil_Manifestation.description = A mystical sigil that manifests items from the void into nearby containers.
+
+items.Anomaly_Core.name = Anomaly Core
+items.Anomaly_Core.description = A pulsating crystalline core that anchors void storage to reality.
+
+items.Anomaly_Anchor.name = Anomaly Anchor
+items.Anomaly_Anchor.description = A dense block that stabilizes the multiblock structure for void storage.

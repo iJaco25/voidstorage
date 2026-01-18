@@ -1,0 +1,35 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Sigil_Manifestation.name",
+    "Description": "server.items.Sigil_Manifestation.description"
+  },
+  "Parent": "Rock_Gem_Topaz",
+  "Categories": [
+    "Items.Tools"
+  ],
+  "Quality": "Rare",
+  "BlockType": {
+    "Light": {
+      "Color": "#fa0",
+      "Radius": 2
+    },
+    "Particles": [
+      {
+        "Color": "#fa0",
+        "SystemId": "Block_Gem_Sparks"
+      }
+    ],
+    "ParticleColor": "#ff8000",
+    "Interactions": {
+      "Use": "Sigil_Config"
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Block"
+    ]
+  },
+  "Interactions": {
+    "Secondary": "Sigil_Manifestation_Place"
+  }
+}
